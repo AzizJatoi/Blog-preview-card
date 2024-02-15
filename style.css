@@ -19,9 +19,9 @@ body {
 
 .card {
     background-color: var(--white);
-    width: 350px;
+    width: 300px;
     margin: 0 auto;
-    margin-top: 5%;
+    margin-top: 2%;
     border-radius: 20px;
     border: 1px solid var(--black);
     box-shadow: 12px 13px 0px -1px rgba(18,18,18,1);
@@ -30,8 +30,8 @@ body {
 }
 
 .container {
-    height: 500px;
-    padding: 1rem;
+    height: 470px;
+    padding: 1.2rem;
 }
 
 .card-img {
@@ -84,3 +84,11 @@ body {
     font-size: 0.9rem;
 }
 
+@media (min-width: 800px) {
+    .card {
+        width: 350px;
+    }
+    .container {
+        height: 500px;
+    }
+}
